@@ -20,6 +20,7 @@ public class ChaseWaypoint : MonoBehaviour {
 	void Start ()
     {
         anim = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
 	// Update is called once per frame
